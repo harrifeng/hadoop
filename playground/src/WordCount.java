@@ -70,7 +70,7 @@ public class WordCount extends Configured implements Tool {
       String line = value.toString();
       StringTokenizer itr = new StringTokenizer(line);
       while (itr.hasMoreTokens()) {
-        word.set(itr.nextToken());
+        word.set(itr.nextToken().toLowerCase());
         output.collect(word, one);
       }
     }
