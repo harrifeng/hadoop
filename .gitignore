@@ -36,3 +36,4 @@ output/
 *.classes
 *.jar
 playground/classes/
+.idea/
