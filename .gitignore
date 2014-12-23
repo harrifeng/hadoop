@@ -32,3 +32,4 @@ src/docs/build
 src/docs/cn/build
 src/docs/cn/src/documentation/sitemap.xmap
 src/docs/cn/uming.conf
+output*/
